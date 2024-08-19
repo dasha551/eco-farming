@@ -266,6 +266,9 @@ a {
   padding-bottom: 181px;
   animation: fadeIn 4s ease-in-out;
 }
+.btn-adaptive-b{
+  padding-bottom: 0px;
+}
 .cover__info-btn{
   border-radius: 10px;
   padding: 14px 50px;
