@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/site-logo.png" type="image/x-icon">
+    <title>Agrios</title>
+</head>
+<body>
+<!-- HEADER START -->
+    <header class="header">
+        <div class="container">
+            <div class="header__box-items">
+                <div class="header__box">
+                    <button class="header__burger-btn" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <div class="header_logo">
+                        <a href="#" class="logo-link"><img src="images/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="header_social">
+                            <a href="#"><img class="header_social-items" src="images/twitter.svg" alt="Twitter"></a>
+                            <a href="#"><img class="header_social-items" src="images/facebook.svg" alt="Facebook"></a>
+                            <a href="#"><img class="header_social-items" src="images/pinterest.svg" alt="Pinterest"></a>
+                            <a href="#"><img class="header_social-items" src="images/instagram.svg" alt="Instagram"></a>
+                    </div>
+                </div>
+                <section class="contacts">
+                    <div class="contacts_block">
+                        <img src="images/call.svg" alt="Call">
+                        <div class="contacts_box">
+                            <div class="contacts_text">
+                                Call anytime
+                            </div>
+                            <a href="tel:+ 98 (000) - 9630" class="contacts_text-bon">+ 98 (000) - 9630</a>
+                        </div>
+                    </div>
+    
+                    <div class="contacts_block contacts_block-border">
+                        <img src="images/mail.svg" alt="Mail">
+                        <div class="contacts_box">
+                            <div class="contacts_text">
+                                Send email
+                            </div>
+                            <a class="contacts_text-bon" href="mailto:ambed@agrios.com">ambed@agrios.com</a>
+                        </div>
+                    </div>
+    
+    
+                    <div class="contacts_block">
+                        <img src="images/location.svg" alt="Location">
+                        <div class="contacts_box">
+                            <div class="contacts_text">
+                                380 St Kilda Road
+                            </div>
+                            <a class="contacts_text-bon" href="">Melbourne, Australia</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+<!-- HEADER END -->
+
+<!-- NAVBAR START  -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__box">
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('myDropdown')"> Home
+                        <img class="dropdown_img-arrow" src="images/arrow.svg" alt="Arrow">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content" id="myDropdown">
+                        <li><a href="#">Offer</a></li>
+                        <li><a href="#">Our projects</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div> 
+                <ul>
+                    <a class="nav__items" href="#">About</a>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('myDropdown2')"> Services
+                        <img class="dropdown_img-arrow" src="images/arrow.svg" alt="Arrow">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content" id="myDropdown2">
+                        <li><a href="#">What They Say</a></li>
+                        <li><a href="#">Meet Our Farmers</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('myDropdown3')"> Projects
+                        <img class="dropdown_img-arrow" src="images/arrow.svg" alt="Arrow">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content" id="myDropdown3">
+                        <li><a class="nav__items" href="#">Healthy Food</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('myDropdown4')"> News
+                        <img class="dropdown_img-arrow" src="images/arrow.svg" alt="Arrow">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content" id="myDropdown4">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News Grid</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleDropdown('myDropdown5')"> Shop
+                        <img class="dropdown_img-arrow" src="images/arrow.svg" alt="Arrow">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content" id="myDropdown5">
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">Our Shop</a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <a class="nav__items" href="#">Contact</a>
+                </ul>
+                <div class="nav__icon">
+                    <img src="images/search.svg" alt="Поиск" class="nav__icon-items">
+                    <img src="images/basket.svg" alt="Корзина" class="nav__icon-items">
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- NAVBAR END  -->
+
+<!-- COVER START  -->
+    <div class="cover">
+        <div class="container">
+            <div class="cover__text-box">
+                <div class="cover__text-small">
+                    Welcome to agrios farming
+                </div>
+                <div class="cover__text-big">
+                    Agriculture <span class="cover__text-ampersand">&</span> 
+                    Eco Farming
+                </div>
+                <div class="cover__text-ps">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </div>
+            </div>
+            <div class="cover-button btn-adaptive">
+                <a class="cover__info-btn" href="#">Discover More</a>
+                <img src="images/branch.png" alt="Stick">
+            </div>
+            
+        </div>
+    </div>
+<!-- COVER END  -->
+<!-- BOX START  -->
+    <section class="section_block">
+        <div class="container">
+            <div class="section__block-box">
+                    <div class="block__container-item">
+                        <div class="text__image-container">
+                            <div class="block__container-title">
+                                Feature 01
+                            </div>
+                            <div class="block__container-paragraph">
+                                We're using a
+                                new technology
+                            </div>
+                            <img src="images/container-1.jpg" alt="Tech" class="block__container-image">
+                        </div>
+                    </div>
+
+                    <div class="block__container-item">
+                        <div class="text__image-container">
+                            <div class="block__container-title">
+                                Feature 02
+                            </div>
+                            <div class="block__container-paragraph">
+                                Good in smart
+                                organic services
+                            </div>
+                            <img src="images/container-2.jpg" alt="Tech" class="block__container-image">
+                        </div>
+                    </div>
+
+                    <div class="block__container-item">
+                        <div class="text__image-container"> 
+                            <div class="block__container-title">
+                                Feature 03
+                            </div>
+                            <div class="block__container-paragraph">
+                                Reforming
+                                in the systems
+                            </div>
+                            <img src="images/container-3.jpg" alt="Tech" class="block__container-image">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- BOX END -->
+
+<!-- MAIN START  -->
+    <main class="main">
+        <div class="container main_container">
+            <img src="images/photo-group.png" alt="Intro" class="intro__image">
+            <div class="intro__text-box">
+                <div class="intro__text-ps">
+                    Our Introductions
+                </div>
+                <div class="intro__text-title">
+                    Agriculture & Organic
+                    Product Farm
+                </div>
+                <div class="intro__text-caption">
+                    Agrios is the largest global organic farm.
+                </div>
+                <div class="intro__text-paragraph">
+                    There are many variations of passages of lorem ipsum available but the
+                    majority have suffered alteration in some form by injected humor or
+                    random word which don’t look even.
+                </div>
+                
+                <div class="intro__text-img">
+                        <div class="intro__text-container">
+                            <div class="intro__text-imgbox">
+                                <img src="images/vegetables.svg" alt="vegetables">
+                                <p class="intro__text-vegetables">Growing fruits vegetables</p>
+                            </div>
+                            <div class="intro__text-imgbox">
+                                <img src="images/exp-fruit.svg" alt="fruits">
+                                <p class="intro__text-vegetables">Tips for ripening your fruits</p>
+                            </div>
+                        </div>
+                        <div class="intro__text-mark">
+                            <img src="images/mark.svg" alt="Mark">
+                            <p class="mark_text">
+                                Lorem Ipsum is not simply random text.
+                            </p>
+                        </div>
+                        <div class="intro__text-mark">
+                            <img src="images/mark.svg" alt="Mark">
+                            <p class="mark_text">
+                                Making this the first true generator on the internet.
+                            </p>
+                        </div>
+                        <div class="cover-button mark_button">
+                            <a class="cover__info-btn" href="#">Discover More</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- MAIN END  -->
+
+<!-- OFFER START  -->
+    <section class="section__offer">
+        <div class="container section__offer-position">
+            <div class="section__offer-txt">
+                <div class="section__offer-ps">
+                    Our Services
+                </div>
+                <div class="section__offer-title">
+                    What We Offer
+                </div>
+            </div>
+            <div class="section__offer-content">
+                <div class="section__offer-container" style="background-image: url(images/offer-1.jpg);">
+                    <div class="section__offer-box">
+                        <div class="section__offer-boxpos">
+                            <div class="section__offer-icon">
+                                <img src="images/car.svg" alt="Car" class="section__offer-img">
+                            </div>
+                            <div class="section__offer-text">
+                                Agriculture
+                                Products
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__offer-container" style="background-image: url(images/offer-2.jpg);">
+                    <div class="section__offer-box">
+                        <div class="section__offer-boxpos">
+                            <div class="section__offer-icon">
+                                <img src="images/plant.svg" alt="Plant" class="section__offer-img">
+                            </div>
+                            <div class="section__offer-text">
+                                Organic
+                                Products
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__offer-container" style="background-image: url(images/offer-3.jpg);">
+                    <div class="section__offer-box">
+                        <div class="section__offer-boxpos">
+                            <div class="section__offer-icon">
+                                <img src="images/veg.svg" alt="Vegetables" class="section__offer-img">
+                            </div>
+                            <div class="section__offer-text">
+                                Fresh
+                                Vegetables
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__offer-container" style="background-image: url(images/offer-4.jpg);">
+                    <div class="section__offer-box">
+                        <div class="section__offer-boxpos">
+                            <div class="section__offer-icon">
+                                <img src="images/juice.svg" alt="Juice" class="section__offer-img">
+                            </div>
+                            <div class="section__offer-text">
+                                Dairy
+                                Products
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- OFFER END  -->
+
+<!-- SECTION WITH BG VIDEO START  -->
+    <section class="section__video">
+        <video autoplay muted loop id="myVideo">
+            <source src="video/bg-video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="section__video-block">
+                <div class="section__video-text">
+                    <a href="#" class="section__video-link">Agriculture Products</a>
+                    <a href="#" class="section__video-link">Projects Completed</a>
+                    <a href="#" class="section__video-link">Satisfied Clients</a>
+                    <a href="#" class="section__video-link">Experts Farmers</a>
+                </div>
+                <div class="section__video-title">
+                    Agriculture
+                    Matters to the
+                    Future of
+                    Development
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- SECTION WITH BG VIDEO END  -->
+
+<!-- PROJECTS START  -->
+    <section class="section__projects">
+        <div class="container">
+            <div class="section__offer-txt">
+                <div class="section__offer-ps">
+                    Our Services
+                </div>
+                <div class="section__offer-title">
+                    Explore Projects
+                </div>
+            </div>
+            <div class="section__projects-photobox">
+                    <div class="section__projects-photoblock" style="background-image: url(images/projects-1.jpg);">
+                        <div class="section__projects-paragraph">
+                            Easy
+                            Harvesting
+                        </div>
+                    </div>
+                    <div class="section__projects-photoblock" style="background-image: url(images/projects-2.jpg);">
+                        <div class="section__projects-paragraph">
+                            Agriculture
+                            Farming
+                        </div>
+                    </div>
+                    <div class="section__projects-photoblock" style="background-image: url(images/projects-3.jpg);">
+                        <div class="section__projects-paragraph">
+                            Organic
+                            Solutions
+                        </div>
+                    </div>
+                    <div class="section__projects-photoblock" style="background-image: url(images/projects-4.jpg);">
+                        <div class="section__projects-paragraph">
+                            Ecological
+                            Farming
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- PROJECTS END  -->
+
+<!-- SWIPER START  -->
+    <section class="section__swiper-reviews">
+        <div class="container swiper__container">
+            <div class="section__swiper-title">
+                <div class="section__swiper-txt section-adaptive">
+                    <div class="section__swiper-ps ps-adaptive">
+                        Our Testimonials
+                    </div>
+                    <div class="section__swiper-title">
+                        What They're
+                        Talking About
+                        Agrios
+                    </div>
+                    <div class="section__swiper-txt">
+                        There are many variations of passages of
+                        available but the majortity have sufferred
+                        alteration in some form by injected humor or
+                        random word which don't look even.
+                    </div>
+                    <div class="cover-button btn-adaptive-b">
+                        <a class="cover__info-btn" href="#">View All Testimonials</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__swiper-rev">
+                <div class="swiper reviews-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper__reviews-text">
+                                <p class="swiper__reviews-comment">
+                                    There are many variations of passages of available but the
+                                    majority have suffered alteration in some form by injected
+                                    humor or random word which don't look even.
+                                </p>
+                                <div class="swiper__reviews-grade">
+                                    <p class="swiper__reviews-name">
+                                        Bonnie Tolbert
+                                    </p>
+                                    <div class="reviews__star-box">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper__reviews-photo">
+                                <img src="images/reviews-avatar.jpg" alt="Avatar">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__reviews-text">
+                                <p class="swiper__reviews-comment">
+                                    There are many variations of passages of available but the
+                                    majority have suffered alteration in some form by injected
+                                    humor or random word which don't look even.
+                                </p>
+                                <div class="swiper__reviews-grade">
+                                    <p class="swiper__reviews-name">
+                                        Leonardo Domps
+                                    </p>
+                                    <div class="reviews__star-box">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper__reviews-photo">
+                                <img src="images/reviews-avatar2.jpg" alt="Avatar">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__reviews-text">
+                                <p class="swiper__reviews-comment">
+                                    There are many variations of passages of available but the
+                                    majority have suffered alteration in some form by injected
+                                    humor or random word which don't look even.
+                                </p>
+                                <div class="swiper__reviews-grade">
+                                    <p class="swiper__reviews-name">
+                                        Lora Makkloren
+                                    </p>
+                                    <div class="reviews__star-box">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                        <img src="images/star.svg" alt="Star" class="reviews__star">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper__reviews-photo">
+                                <img src="images/reviews-avatar3.jpg" alt="Avatar">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+        
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- SWIPER END  -->
+
+<!-- "WHY ME?" START  -->
+    <section class="section__why">
+        <div class="container container__why">
+            <div class="section__why-images">
+                <div class="why__images__comment">
+                    <p>
+                        Agriculture
+                        Professional
+                        Leader
+                    </p>
+                </div>
+            </div>
+            <div class="section__why-textbox">
+                <div class="section__swiper-ps">
+                    Our Farm Benefits
+                </div>
+                <div class="section__swiper-title why_width-title">
+                    Why Choose Agrios
+                    Market
+                </div>
+                <div class="section__swiper-txt why_width-comment">
+                    There are many variations of passages of available but the
+                    majortity have sufferred alteration in some form by injected
+                    humor or random word which don't look even.
+                </div>
+                <div class="advantages-box">
+                    <img src="images/why-green.svg" alt="Advantages">
+                    <div class="advanges__text-container">
+                        <div class="advanges__text-title">
+                            Quality Organic Food
+                        </div>
+                        <div class="advanges__title-comment">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages-box">
+                    <img src="images/why-yellow.svg" alt="Advantages">
+                    <div class="advanges__text-container">
+                        <div class="advanges__text-title">
+                            Professional Farmers
+                        </div>
+                        <div class="advanges__title-comment">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages-box">
+                    <img src="images/why-orange.svg" alt="Advantages">
+                    <div class="advanges__text-container">
+                        <div class="advanges__text-title">
+                            Quality Products
+                        </div>
+                        <div class="advanges__title-comment">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </div>
+                    </div>
+                </div>
+                <div class="cover-button btn-adaptive-b">
+                    <a class="cover__info-btn btn_avantages" href="#">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- "WHY ME?" END  -->
+
+<!-- ARTICLES START  -->
+    <section class="section__articles">
+        <div class="container">
+            <div class="section__offer-txt section__articles-reset">
+                <div class="section__offer-ps">
+                    From the Blog
+                </div>
+                <div class="section__offer-title">
+                    News & Articles
+                </div>
+            </div>
+            <div class="section__articles-box">
+                <div class="section__articles-item" style="background-image: url(images/articles-1.jpg);">
+                    <div class="section__articles-boxtext">
+                        <div class="articles-date">
+                            05 July 2022
+                        </div>
+                        <div class="articles__box-heading">
+                            <img src="images/man.svg" alt="Icon" class="heading-icon">
+                            <p>Kevin Martin</p>
+                            <img src="images/message.svg" alt="Icon" class="heading-icon">
+                            <a href="#">0 Comments</a>
+                        </div>
+                        <a class="article-title" href="#">
+                            Bringing Food
+                            Production Back To
+                            Cities
+                        </a>
+                    </div>
+                </div>
+            <div class="section__articles-item" style="background-image: url(images/articles-2.jpg);">
+                    <div class="section__articles-boxtext" >
+                        <div class="articles-date">
+                            05 July 2022
+                        </div>
+                        <div class="articles__box-heading">
+                            <img src="images/man.svg" alt="Icon" class="heading-icon">
+                            <p>Kevin Martin</p>
+                            <img src="images/message.svg" alt="Icon" class="heading-icon">
+                            <a href="#">0 Comments</a>
+                        </div>
+                        <a class="article-title" href="#">
+                            The Future of
+                            Farming, Smart
+                            Irrigation Solutions
+                        </a>
+                    </div>
+            </div>
+            <div class="section__articles-item" style="background-image: url(images/articles-1.jpg);">
+                    <div class="section__articles-boxtext" >
+                        <div class="articles-date">
+                            05 July 2022
+                        </div>
+                        <div class="articles__box-heading">
+                            <img src="images/man.svg" alt="Icon" class="heading-icon">
+                            <p>Kevin Martin</p>
+                            <img src="images/message.svg" alt="Icon" class="heading-icon">
+                            <a href="#">0 Comments</a>
+                        </div>
+                        <a class="article-title" href="#">
+                            Agronomy and
+                            relation to Other
+                            Sciences
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ARTICLES END  -->
+
+<!-- PARTNERS START  -->
+    <section class="section__partners">
+        <div class="container partners-row">
+            <div class="partners-item"><img src="images/partner-1.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-2.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-3.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-4.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-1.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-2.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-3.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-4.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-1.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-2.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-3.png" alt="Partners"></div>
+            <div class="partners-item"><img src="images/partner-4.png" alt="Partners"></div>
+        </div>
+    </section>
+<!-- PARTNERS END  -->
+
+<!-- FOOTER START  -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer__logo-box">
+                <img class="footer-logo" src="images/footer-logo.png" alt="Logo">
+                <div class="footer__logo-text">
+                    There are many variations of passages
+                    of lorem ipsum available, but the
+                    majority suffered.
+                </div>
+                <div class="footer_social">
+                    <a href="#"><img class="footer_social-items" src="images/footer-twitter.svg" alt="twitter"></a>
+                    <a href="#"><img class="footer_social-items" src="images/footer-facebook.svg" alt="facebook"></a>
+                    <a href="#"><img class="footer_social-items" src="images/footer-pinterest.svg" alt="pinterest"></a>
+                    <a href="#"><img class="footer_social-items" src="images/footer-instagram.svg" alt="instagram"></a>
+                </div>
+            </div>
+            <div class="footer__explore-box">
+                <div class="footer__explore-title">
+                    Explore
+                </div>
+                <div class="footer__underline-box">
+                    <span class="footer__underline"></span>
+                    <span class="footer__underline-point"></span>
+                </div>
+                    <ul class="footer-nav">
+                        <li class="footer_nav-item"><a href="#">About</a></li>
+                        <li class="footer_nav-item"><a href="#">Services</a></li>
+                        <li class="footer_nav-item"><a href="#">Our Projects</a></li>
+                        <li class="footer_nav-item"><a href="#">Meet the Farmers</a></li>
+                        <li class="footer_nav-item"><a href="#">Latest News</a></li>
+                        <li class="footer_nav-item"><a href="#">Contact</a></li>
+                    </ul>
+            </div>
+            <div class="footer__news-block">
+                <div class="footer__news-title">
+                    News
+                </div>
+                <div class="footer__underline-box">
+                    <span class="footer__underline"></span>
+                    <span class="footer__underline-point"></span>
+                </div>
+                <div class="footer__news-itembox">
+                    <div class="footer__news-item">
+                        <div class="news__title">
+                            <a class="news__title-link" href="#">
+                                Bringing Food Production
+                                Back To Cities
+                            </a>
+                        </div>
+                        <div class="news__date">
+                            July 5, 2022
+                        </div>
+                    </div>
+                    <div class="footer__news-item">
+                        <div class="news__title">
+                            <a class="news__title-link" href="#">
+                                The Future of Farming,
+                                Smart Irrigation Solutions
+                            </a>
+                        </div>
+                        <div class="news__date">
+                            July 5, 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__form-block">
+                <div class="footer__news-title">
+                    Contact
+                </div>
+                <div class="footer__underline-box">
+                    <span class="footer__underline"></span>
+                    <span class="footer__underline-point"></span>
+                </div>
+                <div class="footer__form-contacts">
+                    <div class="contacts_box2">
+                        <img src="images/footer-call.svg" alt="Tel" class="contacts-image">
+                        <a class="contacts_txt" href="tel:+666 888 0000">666 888 0000</a>
+                    </div>
+                    <div class="contacts_box2">
+                        <img src="images/footer-letter.svg" alt="Mail" class="contacts-image">
+                        <a class="contacts_txt" href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    </div>
+                    <div class="contacts_box2">
+                        <img src="images/footer-location.svg" alt="Location" class="contacts-image">
+                        <a class="contacts_txt" href="#">
+                            80 broklyn golden street line
+                            New York, USA
+                        </a>
+                    </div>
+                </div>
+
+                    <form class="footer__form" action="#" method="post">
+                        <input class="form-mail" type="text" name="email" placeholder="Your Email Address">
+                        <input class="submit" style="  background-color: #4BAF47;" type="submit" value=" ">
+                    </form>
+
+            </div>
+        </div>
+    </footer>
+<!-- FOOTER END  -->
+
+<!-- ADDITIONAL START  -->
+    <section class="section__add">
+        <div class="container container_add">
+            <div class="add-text">
+                © All Copyright 2024 by shawonetc Themes
+            </div>
+            <div class="add-doc">
+                <a class="add_doc-text" href="#">Terms of Use</a>
+                <a class="add_doc-text add__doc-border" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </section>
+<!-- ADDITIONAL END  -->
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+
+</html>
