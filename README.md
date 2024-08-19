@@ -1,1 +1,1 @@
-# eco-farming
+# eco-farming, HTML, CSS, JS, Swiper, Adaptive
