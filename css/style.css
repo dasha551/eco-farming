@@ -738,6 +738,7 @@ a {
 .section__articles{
   padding-bottom: 119px;
   display: flex;
+  padding-top: 20px;
   align-items: center;
   justify-content: center;
 }
