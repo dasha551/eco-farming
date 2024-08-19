@@ -1266,6 +1266,7 @@ a {
   .advantages-box {
     align-items: center;
     justify-content: center;
+    text-align: left;
   }
   .advanges__text-title {
     font-size: 20px;
